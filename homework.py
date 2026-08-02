@@ -1,22 +1,19 @@
-# In class, we have made a simple program that asks the user a random addition maths question.
-# The program generates a random number between 1 to 10
-# and then generates a second number between 1 and 10
-# it asks the user what's the sum of the 2 numbers, and prints "Correct!" if the user gets it right
+# In class, we have made a simple turtle program that draws a square.
+# The python file (draw_square.py) for this program is included in the repository for your reference.
+# So the homework is to make a triangle in python turtle module, using the functions we learned in class.
 
-# TODO: Your task is to improvise this program so that
-# it keeps asking the user until the user gets it right
-# make the whole process into a function, and call this function 5 times (to ask 5 different random addition maths questions)
-
-# Current program:
-import random
-
-number1 = random.randint(1, 10)
-number2 = random.randint(1, 10)
-number_sum = number1 + number2
-user_input = input("What's " + str(number1) + "+" + str(number2) + "?")
+# TODO: edit this file to make a triangle of any colour or size you like
+# Since we use a new module called turtle, regular python compiler websites (like online-python.com) will not work.
+# Please test your script in turtle supported online python environments, like
+# "https://pythonsandbox.com/turtle"
+# or "https://trinket.io/turtle"
+# or "https://stepindev.com/en/py-playground"
 
 
-if (int(user_input) == number_sum):
-    print("Correct!")
-    
-    
+import turtle
+
+
+
+
+
+
